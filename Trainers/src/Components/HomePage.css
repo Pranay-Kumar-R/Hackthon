@@ -1,0 +1,19 @@
+.Homepage{
+    background-image: url("../assets/pexels-vanessa-garcia-6325985.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.caption{
+    font-size: 45px;
+    color: brown;
+}
+.startNow{
+    height: 43px;
+    background-color: aliceblue;
+}
