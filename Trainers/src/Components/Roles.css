@@ -1,4 +1,10 @@
-
+.Addcontainer{
+  background-image: url(../assets/david-van-dijk-3LTht2nxd34-unsplash.jpg);
+  
+  background-size: cover;
+  width:  100%;
+  height: 100vh;
+}
 
 
 .roles-container {

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Components/RenderUserByRole.css"
 
 interface User {
     username: string;
@@ -21,10 +22,10 @@ class RenderUsersByRole extends React.Component<RenderUsersByRoleProps> {
         const users = staticUsers.filter(user => user.role === role);
 
         return (
-            <div className="users-list">
+            <div className="users-list overfloow">
                 {users.map(user => (
-                    <div key={user.username} className="d-flex border user justify-content-between px-2" onClick={() => handleUserClick(user)}>
-                        <div className="my-1 p-1">
+                    <div key={user.username} className="  d-flex my-1 border user justify-content-between px-2 bg-white" onClick={() => handleUserClick(user)}>
+                        <div className="my-1 p-1 ">
                             <div>Name: {user.name}</div>
                             <div>Username: {user.username}</div>
                             <div>Email: {user.mail}</div>

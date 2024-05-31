@@ -67,12 +67,12 @@ class Roles extends React.Component<{}, State> {
         const { selectedRole, selectedUser, isDialogOpen } = this.state;
         return (
             <div>
-                <div className="Addcontainer px-5 mt-2 charts">
+                <div className="Addcontainer pt-4 px-5 charts">
                     <div className="test">
-                        <div className="AddFresher d-flex justify-content-end pie-chart chart ">
+                        <div className="AddFresher btn-secodary d-flex justify-content-end pie-chart chart ">
                             <div key="PE">
                                 <button
-                                    className="role-button"
+                                    className="role-button "
                                     onClick={() => this.handleRoleClick("PE")}
                                 >
                                     Project Engineer

@@ -47,9 +47,9 @@
   }
 
   .Auth-form-container{
-    background-image: url(../assets/pexels-kubiceknov-924824.jpg);
+    background-image: url(../assets/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: bottom;
   }
 
   .logo{
