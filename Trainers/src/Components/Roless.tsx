@@ -3,7 +3,7 @@ import "./Roles.css";
 import { BACourses, PECourses, QACourses, staticUsers } from "./Data";
 import { Course, State, User } from "./Interface";
 import RenderUsersByRole from "./Traines";
-import UserDetailsDialog from "./Courses";
+import UserDetailsDialog from "./TraineeCourses";
 
 class Roles extends React.Component<{}, State> {
     state: State = {

@@ -24,20 +24,15 @@ class Dashboard extends React.Component <{}, LoginState>{
       return <Login />;
   }
 
-  
-
-   
-
     return (
       <div>
         <Router>
           <header className="header">
-            <div className="logo"></div>
+          
+            <Link className="logo" onClick={this.HomePage} to="/"></Link>
             <nav>
               <ul className="nav-links">
-                <li>
-                  <Link onClick={this.HomePage} to="/">Home</Link>
-                </li>
+            
                 <li>
                   <Link to="/freshers-roles">Freshers Roles</Link>
                 </li>
